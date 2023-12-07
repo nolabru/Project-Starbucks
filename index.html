@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="assets/logo.png" alt="logo" title="Logo" class="logo"></a>
+            <div onclick="toggleMenu();" class="toggle"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>
+                    It's not just Coffe<br>
+                    It's <span class="title">Starbucks</span>
+                </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem consequuntur, hic aliquid corporis praesentium earum minima vel neque. Suscipit neque natus fuga eius aut quis quae tempore eaque debitis vel?</p>
+                <a class="button" href="#">Learn More</a>
+            </div>
+            <div class="imageBox">
+                <img src="assets/img1.png" class="starbucks">
+            </div>
+        </div>
+            <ul class="thumb">
+                <li><img src="assets/thumb1.png" onclick="imgSlider('assets/img1.png');setColor('#017143')"></li>
+                <li><img src="assets/thumb2.png" onclick="imgSlider('assets/img2.png');setColor('#ECAEBD')"></li>
+                <li><img src="assets/thumb3.png" onclick="imgSlider('assets/img3.png');setColor('#a5896a')"></li>
+            </ul>
+            <ul class="sci">
+                <li><a href="#"><img src="assets/facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="assets/instagram.png" alt=""></a></li>
+                <li><a href="#"><img src="assets/twitter.png" alt=""></a></li>
+            </ul>
+    </section>
+</body>
+</html>
